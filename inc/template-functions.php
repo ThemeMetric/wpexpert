@@ -183,3 +183,9 @@ function profectis_custom_login_logo() {
 	
 			return $return;
 	}
+
+add_filter('comment_form_default_fields','wpexpert_remove_comment_url');
+function wpexpert_remove_comment_url($fields) { 
+unset($fields['url']);
+return $fields;
+}

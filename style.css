@@ -1321,7 +1321,7 @@ h5.description_text {
     /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom, #222 0%, #222 49%, #222222 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#222222', GradientType=0);
+    filter: DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#222222', GradientType=0);
     /* IE6-9 */
     position: absolute;
     top: 0;
@@ -1332,26 +1332,7 @@ h5.description_text {
     z-index: 10;
 }
 
-@media all and (-ms-high-contrast: none),
-(-ms-high-contrast: active) {
-    #intro .wrapper-intro {
-        top: 32% !important;
-    }
-}
 
-@supports (-ms-accelerator: true) {
-    #intro .wrapper-intro {
-        top: 32% !important;
-    }
-}
-
-@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio: 0) {
-    @media {
-        #intro .wrapper-intro {
-            top: 33% !important;
-        }
-    }
-}
 
 .hamburger {
     display: -webkit-box;
@@ -1925,7 +1906,7 @@ form input[type=text] {
 }
 
 #news-signup .newsletter-content p.footnote {
-    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+    filter: DXImageTransform.Microsoft.Alpha(Opacity=50);
     opacity: 0.8;
     font: 100 11px 'Roboto Slab', serif;
     color: #abb0b7;
