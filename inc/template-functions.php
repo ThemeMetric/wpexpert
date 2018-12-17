@@ -177,7 +177,7 @@ function profectis_custom_login_logo() {
 					$return .= '<li><a href="'.get_the_author_meta('skype').'" title="Skype" target="_blank" id="skype"><span class="fa fa-skype"></span></a></li>';
 			}
 			if(!empty(get_the_author_meta('portfolio'))) {
-				$return .= '<li><a href="'.get_the_author_meta('portfolio').'" title="Portfolio link" target="_blank" id="portfolio"><span class="fa fa-home"></span></a></li>';
+				$return .= '<li><a href="'.get_the_author_meta('portfolio').'" title="Portfolio link" target="_blank" id="portfolio"><span class="fa fa-user-o"></span></a></li>';
 		}
 			$return .= '</ul>';
 	

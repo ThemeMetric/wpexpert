@@ -5400,12 +5400,17 @@ a.video-link img {
 }
 
 .post h1 {
-    margin: 0 0 20px 0;
-    font-size: 30px;
-    line-height: 48px;
-    color: #44C8F5
+  margin: 0 0 20px 0;
+  font-size: 35px;
+  line-height: 50px;
+  color: #26282d;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
 }
-
+.post h1:hover{
+  color: #FD8720;
+}
 .post h2 {
     margin: 0 0 5px 0;
     font-size: 30px;
@@ -5581,15 +5586,17 @@ aside .widget {
 aside .widget ul {
     margin: 0;
     padding: 0;
-    list-style-type: none
+    list-style-type: square;
+    color: #F3811E;
 }
 
 aside .widget a {
-    color: #2d2d2d
+    color: #2d2d2d;
+    line-height: 30px;
 }
 
 aside .widget a:hover {
-    color: #44C8F5
+    color: #F5821F;
 }
 
 aside .widget_categories li {
@@ -5617,6 +5624,11 @@ aside .widget_search h4 {
 }
 
 aside .popular-posts li+li {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: solid 1px #dcd9d4
+}
+aside ul li+li {
     padding-top: 10px;
     margin-top: 10px;
     border-top: solid 1px #dcd9d4

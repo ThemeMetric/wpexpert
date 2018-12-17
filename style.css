@@ -18,12 +18,17 @@ Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-com
  */
 
 .page h1 {
-    margin: 0 0 20px 0;
-    font-size: 30px;
-    line-height: 48px;
-    color: #44C8F5;
+  margin: 0 0 20px 0;
+  font-size: 35px;
+  line-height: 50px;
+  color: #26282d;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
 }
-
+.page h1:hover{
+  color: #FD8720;
+}
 .form-widget {
     border: 5px solid#F5821F;
     text-align: center;
@@ -1943,7 +1948,35 @@ form input[type=text] {
     }
 }
 
+.case-study {
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading_main {
+    font-family: Raleway-Bold;
+    color: #f48000;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading_para {
+    font-family: Raleway-Regular;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+}
 
+.form_title {
+    margin-bottom: 15px;
+    font-size: 36px;
+    font-family: aventdemi;
+    padding-left: 10px;
+}
+.form_title2 {
+    font-size: 27px;
+    color: #fff;
+}
 /* Responsive css */
 
 @media screen and (max-width: 980px) {}
